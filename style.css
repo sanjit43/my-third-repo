@@ -5,6 +5,7 @@ body{
 h1{
     color: red;
     text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 ul{
@@ -22,4 +23,38 @@ li{
 .nav-bar{
     background-color: aqua;
     margin: 30px;
+}
+
+.heading-one{
+    border: 5px solid yellow;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.heading-two{
+    border: 5px dotted blue;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.heading-three{
+    border: 5px dashed darkcyan;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 50px;
+}
+small{
+    color: tomato;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border: 2px;
+    border-radius: 10px;
+    
 }
